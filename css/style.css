@@ -1,0 +1,161 @@
+
+* {
+    font-size: 62.5%;
+    /* box-sizing: border-box; */
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 14.4rem;
+    font-family: 'Sacramento', cursive;
+    margin: 0.7em auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 6.4rem;
+    color: #66BFBF;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-size: 1.6rem;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+p {
+    font-size: 1.6rem;
+    color: #40514E;
+    line-height: 2;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #EAF6F6;
+    border-width: 10px;
+    width: 5%;
+}
+
+.btn {
+    display: inline-block;
+    border-style: none;
+    text-decoration: none;
+    width: 200px;
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #11cdd4, #11999e);
+    padding: 1.5rem 1.5rem;
+    border-radius: 8px;
+    color: #EAF6F6;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+.pro {
+    font-size: 6.4rem;
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile-img {
+    width: 25rem;
+}
+
+.profile {
+    width: 40%;
+    margin: 10rem auto;
+}
+
+.profile p {
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 10rem auto;
+    text-align: left;
+}   
+
+.skill-row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.skill-row p {
+    line-height: 2;
+}
+
+.skill-row img {
+    width: 25%;
+    float: left;
+    margin-right: 3rem;
+}
+
+.skill-row .se-img {
+    float: right;
+    margin-right: 0;
+    margin-left: 3rem;
+}
+
+.contact-me {
+    margin: 10rem auto;
+    width: 40%;
+}
+
+
+.bottom-container {
+    text-align: center;
+    background-color: #66BFBF;
+    padding: 7rem;
+}
+
+.bottom-container a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0 0.4em;
+}
+
+
+.bottom-container p {
+    color:#EAF6F6;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
